@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import json
 
 URL = "https://coinmarketcap.com/all/views/all/"
-HEADERS = {'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36', 'accept': '*/*'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0'}
 
 def get_html(url, params=None):
     r = requests.get(url, headers=HEADERS, params=params)
@@ -13,32 +13,40 @@ def get_html(url, params=None):
 
 def get_content(html):
     soup = BeautifulSoup(html, 'html.parser')
-    items = soup.find_all('tr', class_='cmc-table-row')
-    valuts = []
-    for item in items:
-        valuts.append({
-            'title': item.find('td', class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--left cmc-table__cell--sort-by__symbol').get_text(strip=True),
-            'name': item.find('a', class_='cmc-link').get_text(strip=True),
-            'price':item.find('td', class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__price').get_text(strip=True),
-            'hour':item.find('td', class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__percent-change-1-h').get_text(),
-            'day':item.find('td', class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__percent-change-24-h').get_text(),
-            'week':item.find('td', class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__percent-change-7-d').get_text(),
-        })
+    items = soup.find_all('div', class_='cmc-table__table-wrapper-outer')[2]
+    trs = items.find_all('tr')[1:]
+    valuts = {}
+    for tr in trs:
+        tds = tr.find_all('td')
+
+        name = tds[1].text
+        symbol = tds[2].text
+        price = (tds[4].text).replace('$', '').replace(',', '')
+        hour = tds[7].text
+        day = tds[8].text
+        week = tds[9].text
+
+        valuts.update({symbol: {
+                       'name': name,
+                       'price': price,
+                       'hour': hour,
+                       'day': day,
+                       'week': week}})
     return valuts
 
-def save_file(items, path):
-    to_json = {'coins': items}
-    with open(path, 'w', newline='') as file:
-        json.dump(to_json, file, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=4, separators=None, default=None, sort_keys=False)
-    with open(path) as file:
-        print(file.read())    
+
+def save_json(data, path):
+    if data:
+        with open(path, 'w') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)   
 
 def parse():
     html=get_html(URL)
     if html.status_code == 200:
         valuts = get_content(html.text)
-        save_file(valuts, 'valuts.json')
+        save_json({'coins': valuts}, 'valuts.json')
     else:
         print("Error")
 
-parse()
+if __name__ == "__main__":
+    parse()

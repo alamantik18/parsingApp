@@ -1,0 +1,1404 @@
+{
+    "coins": {
+        "BTC": {
+            "name": "Bitcoin",
+            "price": "9439.18",
+            "hour": "-0.01%",
+            "day": "-0.70%",
+            "week": "-4.04%"
+        },
+        "ETH": {
+            "name": "Ethereum",
+            "price": "233.65",
+            "hour": "-0.02%",
+            "day": "-0.28%",
+            "week": "-5.38%"
+        },
+        "USDT": {
+            "name": "Tether",
+            "price": "1.00",
+            "hour": "-0.02%",
+            "day": "-0.02%",
+            "week": "-0.30%"
+        },
+        "XRP": {
+            "name": "XRP",
+            "price": "0.191645",
+            "hour": "-0.16%",
+            "day": "-1.46%",
+            "week": "-5.11%"
+        },
+        "BCH": {
+            "name": "Bitcoin Cash",
+            "price": "239.09",
+            "hour": "0.00%",
+            "day": "-0.54%",
+            "week": "-6.37%"
+        },
+        "BSV": {
+            "name": "Bitcoin SV",
+            "price": "176.63",
+            "hour": "-0.16%",
+            "day": "0.45%",
+            "week": "-8.50%"
+        },
+        "LTC": {
+            "name": "Litecoin",
+            "price": "43.71",
+            "hour": "-0.05%",
+            "day": "-2.16%",
+            "week": "-5.91%"
+        },
+        "BNB": {
+            "name": "Binance Coin",
+            "price": "16.42",
+            "hour": "-0.29%",
+            "day": "-0.29%",
+            "week": "-5.65%"
+        },
+        "EOS": {
+            "name": "EOS",
+            "price": "2.56",
+            "hour": "-0.05%",
+            "day": "-0.41%",
+            "week": "-7.33%"
+        },
+        "ADA": {
+            "name": "Cardano",
+            "price": "0.082900",
+            "hour": "-0.13%",
+            "day": "4.73%",
+            "week": "-0.22%"
+        },
+        "CRO": {
+            "name": "Crypto.com Coin",
+            "price": "0.115087",
+            "hour": "0.04%",
+            "day": "0.67%",
+            "week": "0.76%"
+        },
+        "XTZ": {
+            "name": "Tezos",
+            "price": "2.65",
+            "hour": "0.34%",
+            "day": "0.56%",
+            "week": "-7.84%"
+        },
+        "LINK": {
+            "name": "Chainlink",
+            "price": "4.21",
+            "hour": "0.30%",
+            "day": "3.44%",
+            "week": "-4.16%"
+        },
+        "XLM": {
+            "name": "Stellar",
+            "price": "0.071564",
+            "hour": "0.04%",
+            "day": "-0.61%",
+            "week": "-8.37%"
+        },
+        "LEO": {
+            "name": "UNUS SED LEO",
+            "price": "1.14",
+            "hour": "-0.05%",
+            "day": "0.14%",
+            "week": "-9.13%"
+        },
+        "XMR": {
+            "name": "Monero",
+            "price": "64.63",
+            "hour": "-0.17%",
+            "day": "-2.01%",
+            "week": "-6.31%"
+        },
+        "TRX": {
+            "name": "TRON",
+            "price": "0.016100",
+            "hour": "0.06%",
+            "day": "-1.60%",
+            "week": "-7.71%"
+        },
+        "HT": {
+            "name": "Huobi Token",
+            "price": "4.18",
+            "hour": "0.04%",
+            "day": "-0.96%",
+            "week": "-6.06%"
+        },
+        "NEO": {
+            "name": "Neo",
+            "price": "10.59",
+            "hour": "0.08%",
+            "day": "-1.69%",
+            "week": "-10.33%"
+        },
+        "USDC": {
+            "name": "USD Coin",
+            "price": "1.00",
+            "hour": "0.02%",
+            "day": "0.00%",
+            "week": "-0.08%"
+        },
+        "ETC": {
+            "name": "Ethereum Classic",
+            "price": "6.25",
+            "hour": "0.04%",
+            "day": "-0.95%",
+            "week": "-7.77%"
+        },
+        "DASH": {
+            "name": "Dash",
+            "price": "72.17",
+            "hour": "0.06%",
+            "day": "-1.21%",
+            "week": "-7.68%"
+        },
+        "MIOTA": {
+            "name": "IOTA",
+            "price": "0.224955",
+            "hour": "0.10%",
+            "day": "-0.25%",
+            "week": "-8.29%"
+        },
+        "MKR": {
+            "name": "Maker",
+            "price": "538.22",
+            "hour": "0.25%",
+            "day": "-3.08%",
+            "week": "-21.34%"
+        },
+        "ATOM": {
+            "name": "Cosmos",
+            "price": "2.68",
+            "hour": "0.21%",
+            "day": "-1.32%",
+            "week": "-12.68%"
+        },
+        "HEDG": {
+            "name": "HedgeTrade",
+            "price": "1.73",
+            "hour": "0.16%",
+            "day": "-3.31%",
+            "week": "-3.93%"
+        },
+        "ZEC": {
+            "name": "Zcash",
+            "price": "52.87",
+            "hour": "-0.11%",
+            "day": "0.04%",
+            "week": "-2.48%"
+        },
+        "VET": {
+            "name": "VeChain",
+            "price": "0.008918",
+            "hour": "0.46%",
+            "day": "-0.47%",
+            "week": "-9.88%"
+        },
+        "XEM": {
+            "name": "NEM",
+            "price": "0.045195",
+            "hour": "0.26%",
+            "day": "-0.63%",
+            "week": "-5.02%"
+        },
+        "ONT": {
+            "name": "Ontology",
+            "price": "0.571582",
+            "hour": "0.76%",
+            "day": "-0.14%",
+            "week": "-4.66%"
+        },
+        "BAT": {
+            "name": "Basic Attention Token",
+            "price": "0.221950",
+            "hour": "0.06%",
+            "day": "-0.93%",
+            "week": "-10.61%"
+        },
+        "DOGE": {
+            "name": "Dogecoin",
+            "price": "0.002486",
+            "hour": "0.02%",
+            "day": "0.03%",
+            "week": "-3.75%"
+        },
+        "OKB": {
+            "name": "OKB",
+            "price": "5.04",
+            "hour": "0.05%",
+            "day": "-1.14%",
+            "week": "-5.90%"
+        },
+        "FTT": {
+            "name": "FTX Token",
+            "price": "3.03",
+            "hour": "-0.09%",
+            "day": "0.96%",
+            "week": "1.93%"
+        },
+        "DGB": {
+            "name": "DigiByte",
+            "price": "0.018881",
+            "hour": "-0.29%",
+            "day": "-8.60%",
+            "week": "-5.71%"
+        },
+        "PAX": {
+            "name": "Paxos Standard",
+            "price": "1.00",
+            "hour": "0.05%",
+            "day": "0.07%",
+            "week": "-0.03%"
+        },
+        "ZIL": {
+            "name": "Zilliqa",
+            "price": "0.022466",
+            "hour": "-0.92%",
+            "day": "-8.73%",
+            "week": "-20.95%"
+        },
+        "ZRX": {
+            "name": "0x",
+            "price": "0.339011",
+            "hour": "-0.08%",
+            "day": "-1.44%",
+            "week": "-11.21%"
+        },
+        "OMG": {
+            "name": "OMG Network",
+            "price": "1.52",
+            "hour": "-0.04%",
+            "day": "-0.48%",
+            "week": "-7.34%"
+        },
+        "SNX": {
+            "name": "Synthetix Network Token",
+            "price": "1.12",
+            "hour": "-0.17%",
+            "day": "1.40%",
+            "week": "7.70%"
+        },
+        "KNC": {
+            "name": "Kyber Network",
+            "price": "1.17",
+            "hour": "-0.23%",
+            "day": "-3.26%",
+            "week": "0.56%"
+        },
+        "HBAR": {
+            "name": "Hedera Hashgraph",
+            "price": "0.045474",
+            "hour": "1.16%",
+            "day": "8.01%",
+            "week": "0.92%"
+        },
+        "THETA": {
+            "name": "THETA",
+            "price": "0.229952",
+            "hour": "0.27%",
+            "day": "-1.26%",
+            "week": "-4.67%"
+        },
+        "ALGO": {
+            "name": "Algorand",
+            "price": "0.248687",
+            "hour": "-0.38%",
+            "day": "6.48%",
+            "week": "0.28%"
+        },
+        "ICX": {
+            "name": "ICON",
+            "price": "0.334845",
+            "hour": "-1.03%",
+            "day": "4.89%",
+            "week": "-6.36%"
+        },
+        "DCR": {
+            "name": "Decred",
+            "price": "15.52",
+            "hour": "-0.15%",
+            "day": "-2.44%",
+            "week": "-12.11%"
+        },
+        "REP": {
+            "name": "Augur",
+            "price": "16.09",
+            "hour": "0.67%",
+            "day": "-0.25%",
+            "week": "1.33%"
+        },
+        "SC": {
+            "name": "Siacoin",
+            "price": "0.004001",
+            "hour": "1.62%",
+            "day": "6.75%",
+            "week": "33.04%"
+        },
+        "NANO": {
+            "name": "Nano",
+            "price": "1.25",
+            "hour": "0.01%",
+            "day": "6.74%",
+            "week": "1.49%"
+        },
+        "QTUM": {
+            "name": "Qtum",
+            "price": "1.70",
+            "hour": "0.13%",
+            "day": "-1.26%",
+            "week": "-10.17%"
+        },
+        "BUSD": {
+            "name": "Binance USD",
+            "price": "1.00",
+            "hour": "-0.01%",
+            "day": "0.12%",
+            "week": "0.02%"
+        },
+        "LSK": {
+            "name": "Lisk",
+            "price": "1.26",
+            "hour": "0.38%",
+            "day": "-0.26%",
+            "week": "-4.53%"
+        },
+        "BTG": {
+            "name": "Bitcoin Gold",
+            "price": "8.64",
+            "hour": "0.59%",
+            "day": "0.00%",
+            "week": "-6.89%"
+        },
+        "XVG": {
+            "name": "Verge",
+            "price": "0.009192",
+            "hour": "1.75%",
+            "day": "-4.57%",
+            "week": "60.41%"
+        },
+        "ENJ": {
+            "name": "Enjin Coin",
+            "price": "0.177337",
+            "hour": "-0.90%",
+            "day": "-0.41%",
+            "week": "-14.15%"
+        },
+        "RVN": {
+            "name": "Ravencoin",
+            "price": "0.021887",
+            "hour": "0.61%",
+            "day": "-1.54%",
+            "week": "2.02%"
+        },
+        "HYN": {
+            "name": "Hyperion",
+            "price": "0.440289",
+            "hour": "-0.13%",
+            "day": "-0.55%",
+            "week": "-3.53%"
+        },
+        "TUSD": {
+            "name": "TrueUSD",
+            "price": "1.00",
+            "hour": "0.00%",
+            "day": "0.01%",
+            "week": "-0.03%"
+        },
+        "LEND": {
+            "name": "Aave",
+            "price": "0.102266",
+            "hour": "1.48%",
+            "day": "9.07%",
+            "week": "9.30%"
+        },
+        "WAVES": {
+            "name": "Waves",
+            "price": "1.25",
+            "hour": "-0.56%",
+            "day": "-1.08%",
+            "week": "-1.90%"
+        },
+        "DAI": {
+            "name": "Dai",
+            "price": "1.01",
+            "hour": "-0.05%",
+            "day": "0.05%",
+            "week": "0.22%"
+        },
+        "HUSD": {
+            "name": "HUSD",
+            "price": "1.00",
+            "hour": "-0.01%",
+            "day": "0.05%",
+            "week": "-0.11%"
+        },
+        "BCD": {
+            "name": "Bitcoin Diamond",
+            "price": "0.609964",
+            "hour": "1.62%",
+            "day": "-1.43%",
+            "week": "-4.18%"
+        },
+        "MONA": {
+            "name": "MonaCoin",
+            "price": "1.69",
+            "hour": "-0.17%",
+            "day": "-0.70%",
+            "week": "-9.21%"
+        },
+        "CHSB": {
+            "name": "SwissBorg",
+            "price": "0.153725",
+            "hour": "6.14%",
+            "day": "19.70%",
+            "week": "87.60%"
+        },
+        "ZB": {
+            "name": "ZB Token",
+            "price": "0.216659",
+            "hour": "-0.29%",
+            "day": "-1.18%",
+            "week": "-5.87%"
+        },
+        "REN": {
+            "name": "Ren",
+            "price": "0.114941",
+            "hour": "0.20%",
+            "day": "-2.57%",
+            "week": "15.16%"
+        },
+        "LRC": {
+            "name": "Loopring",
+            "price": "0.092458",
+            "hour": "-1.40%",
+            "day": "1.00%",
+            "week": "-8.47%"
+        },
+        "HOT": {
+            "name": "Holo",
+            "price": "0.000587",
+            "hour": "-0.29%",
+            "day": "-1.35%",
+            "week": "-7.40%"
+        },
+        "SEELE": {
+            "name": "Seele-N",
+            "price": "0.131036",
+            "hour": "0.00%",
+            "day": "9.09%",
+            "week": "37.59%"
+        },
+        "KMD": {
+            "name": "Komodo",
+            "price": "0.736884",
+            "hour": "1.65%",
+            "day": "-2.32%",
+            "week": "-11.21%"
+        },
+        "SNT": {
+            "name": "Status",
+            "price": "0.025107",
+            "hour": "0.11%",
+            "day": "2.37%",
+            "week": "-12.03%"
+        },
+        "IOST": {
+            "name": "IOST",
+            "price": "0.005719",
+            "hour": "1.14%",
+            "day": "-1.20%",
+            "week": "-2.54%"
+        },
+        "DIVI": {
+            "name": "Divi",
+            "price": "0.048767",
+            "hour": "-1.25%",
+            "day": "3.66%",
+            "week": "0.84%"
+        },
+        "NEXO": {
+            "name": "Nexo",
+            "price": "0.149662",
+            "hour": "0.26%",
+            "day": "2.45%",
+            "week": "14.82%"
+        },
+        "LUNA": {
+            "name": "Terra",
+            "price": "0.213884",
+            "hour": "-0.27%",
+            "day": "0.12%",
+            "week": "-6.44%"
+        },
+        "DX": {
+            "name": "DxChain Token",
+            "price": "0.001640",
+            "hour": "0.16%",
+            "day": "-0.23%",
+            "week": "-2.09%"
+        },
+        "QNT": {
+            "name": "Quant",
+            "price": "6.68",
+            "hour": "-0.94%",
+            "day": "-1.71%",
+            "week": "-16.48%"
+        },
+        "STEEM": {
+            "name": "Steem",
+            "price": "0.215193",
+            "hour": "-0.55%",
+            "day": "-1.08%",
+            "week": "-2.50%"
+        },
+        "FXC": {
+            "name": "Flexacoin",
+            "price": "0.002816",
+            "hour": "-3.98%",
+            "day": "-34.34%",
+            "week": "-9.50%"
+        },
+        "MCO": {
+            "name": "MCO",
+            "price": "4.86",
+            "hour": "-0.07%",
+            "day": "-0.05%",
+            "week": "-9.04%"
+        },
+        "BTM": {
+            "name": "Bytom",
+            "price": "0.068099",
+            "hour": "-0.13%",
+            "day": "0.02%",
+            "week": "-8.21%"
+        },
+        "HIVE": {
+            "name": "Hive",
+            "price": "0.251073",
+            "hour": "-0.20%",
+            "day": "-1.43%",
+            "week": "-0.72%"
+        },
+        "STX": {
+            "name": "Blockstack",
+            "price": "0.152869",
+            "hour": "0.77%",
+            "day": "7.90%",
+            "week": "-1.71%"
+        },
+        "CKB": {
+            "name": "Nervos Network",
+            "price": "0.004147",
+            "hour": "-0.16%",
+            "day": "0.94%",
+            "week": "-6.99%"
+        },
+        "KCS": {
+            "name": "KuCoin Shares",
+            "price": "0.896729",
+            "hour": "0.01%",
+            "day": "-0.91%",
+            "week": "-6.92%"
+        },
+        "MATIC": {
+            "name": "Matic Network",
+            "price": "0.020715",
+            "hour": "-0.07%",
+            "day": "-1.04%",
+            "week": "-3.74%"
+        },
+        "ABBC": {
+            "name": "ABBC Coin",
+            "price": "0.128929",
+            "hour": "-0.40%",
+            "day": "5.47%",
+            "week": "28.78%"
+        },
+        "NRG": {
+            "name": "Energi",
+            "price": "2.34",
+            "hour": "1.87%",
+            "day": "4.17%",
+            "week": "-5.00%"
+        },
+        "ZEN": {
+            "name": "Horizen",
+            "price": "7.39",
+            "hour": "0.14%",
+            "day": "-2.20%",
+            "week": "-9.50%"
+        },
+        "WAXP": {
+            "name": "WAX",
+            "price": "0.056165",
+            "hour": "-0.69%",
+            "day": "2.36%",
+            "week": "-7.01%"
+        },
+        "ETN": {
+            "name": "Electroneum",
+            "price": "0.006412",
+            "hour": "-0.08%",
+            "day": "-1.99%",
+            "week": "-11.19%"
+        },
+        "BTS": {
+            "name": "BitShares",
+            "price": "0.023615",
+            "hour": "0.65%",
+            "day": "5.37%",
+            "week": "1.44%"
+        },
+        "BTT": {
+            "name": "BitTorrent",
+            "price": "0.000305",
+            "hour": "0.72%",
+            "day": "-0.97%",
+            "week": "-4.74%"
+        },
+        "NMR": {
+            "name": "Numeraire",
+            "price": "24.48",
+            "hour": "0.10%",
+            "day": "-2.73%",
+            "week": "-12.48%"
+        },
+        "UBT": {
+            "name": "Unibright",
+            "price": "0.417190",
+            "hour": "2.11%",
+            "day": "3.14%",
+            "week": "0.85%"
+        },
+        "CHZ": {
+            "name": "Chiliz",
+            "price": "0.013211",
+            "hour": "0.37%",
+            "day": "2.17%",
+            "week": "5.82%"
+        },
+        "GNT": {
+            "name": "Golem",
+            "price": "0.059238",
+            "hour": "0.50%",
+            "day": "-0.76%",
+            "week": "-1.96%"
+        },
+        "ELF": {
+            "name": "aelf",
+            "price": "0.106852",
+            "hour": "2.86%",
+            "day": "4.88%",
+            "week": "-10.59%"
+        },
+        "MANA": {
+            "name": "Decentraland",
+            "price": "0.041768",
+            "hour": "0.96%",
+            "day": "1.66%",
+            "week": "-5.70%"
+        },
+        "SOLVE": {
+            "name": "SOLVE",
+            "price": "0.164777",
+            "hour": "-0.50%",
+            "day": "3.26%",
+            "week": "-2.64%"
+        },
+        "HC": {
+            "name": "HyperCash",
+            "price": "1.20",
+            "hour": "0.75%",
+            "day": "-0.96%",
+            "week": "-10.57%"
+        },
+        "CEL": {
+            "name": "Celsius",
+            "price": "0.221864",
+            "hour": "1.54%",
+            "day": "7.38%",
+            "week": "-12.26%"
+        },
+        "BNT": {
+            "name": "Bancor",
+            "price": "0.765491",
+            "hour": "-0.24%",
+            "day": "-10.83%",
+            "week": "-10.55%"
+        },
+        "RIF": {
+            "name": "RSK Infrastructure Framework",
+            "price": "0.086042",
+            "hour": "-0.11%",
+            "day": "3.34%",
+            "week": "-1.13%"
+        },
+        "ARDR": {
+            "name": "Ardor",
+            "price": "0.052431",
+            "hour": "-0.31%",
+            "day": "1.16%",
+            "week": "-5.30%"
+        },
+        "MAID": {
+            "name": "MaidSafeCoin",
+            "price": "0.115439",
+            "hour": "-0.05%",
+            "day": "-1.63%",
+            "week": "-10.75%"
+        },
+        "AION": {
+            "name": "Aion",
+            "price": "0.119658",
+            "hour": "-1.60%",
+            "day": "6.32%",
+            "week": "-4.65%"
+        },
+        "VSYS": {
+            "name": "v.systems",
+            "price": "0.024873",
+            "hour": "-1.07%",
+            "day": "1.89%",
+            "week": "-2.92%"
+        },
+        "PAXG": {
+            "name": "PAX Gold",
+            "price": "1763.29",
+            "hour": "-0.05%",
+            "day": "-0.39%",
+            "week": "1.89%"
+        },
+        "XSR": {
+            "name": "Xensor",
+            "price": "0.042865",
+            "hour": "-0.76%",
+            "day": "-2.45%",
+            "week": "-6.75%"
+        },
+        "XZC": {
+            "name": "Zcoin",
+            "price": "4.55",
+            "hour": "0.28%",
+            "day": "-1.13%",
+            "week": "-5.06%"
+        },
+        "STRAT": {
+            "name": "Stratis",
+            "price": "0.468199",
+            "hour": "0.55%",
+            "day": "-8.70%",
+            "week": "14.49%"
+        },
+        "AE": {
+            "name": "Aeternity",
+            "price": "0.144607",
+            "hour": "-0.90%",
+            "day": "-1.92%",
+            "week": "-9.78%"
+        },
+        "RLC": {
+            "name": "iExec RLC",
+            "price": "0.554166",
+            "hour": "-0.54%",
+            "day": "13.05%",
+            "week": "5.56%"
+        },
+        "ANT": {
+            "name": "Aragon",
+            "price": "1.30",
+            "hour": "-0.14%",
+            "day": "1.19%",
+            "week": "12.95%"
+        },
+        "POWR": {
+            "name": "Power Ledger",
+            "price": "0.096100",
+            "hour": "0.27%",
+            "day": "-0.08%",
+            "week": "-11.04%"
+        },
+        "ERD": {
+            "name": "Elrond",
+            "price": "0.004183",
+            "hour": "-4.44%",
+            "day": "25.56%",
+            "week": "43.39%"
+        },
+        "RCN": {
+            "name": "Ripio Credit Network",
+            "price": "0.076413",
+            "hour": "0.61%",
+            "day": "1.86%",
+            "week": "-4.41%"
+        },
+        "ARK": {
+            "name": "Ark",
+            "price": "0.319610",
+            "hour": "-7.74%",
+            "day": "14.74%",
+            "week": "30.22%"
+        },
+        "NULS": {
+            "name": "NULS",
+            "price": "0.397013",
+            "hour": "-0.65%",
+            "day": "2.40%",
+            "week": "13.38%"
+        },
+        "WICC": {
+            "name": "WaykiChain",
+            "price": "0.204776",
+            "hour": "0.33%",
+            "day": "-8.24%",
+            "week": "-2.20%"
+        },
+        "RDD": {
+            "name": "ReddCoin",
+            "price": "0.001323",
+            "hour": "0.02%",
+            "day": "-9.23%",
+            "week": "0.57%"
+        },
+        "BHT": {
+            "name": "BHEX Token",
+            "price": "0.133028",
+            "hour": "-0.12%",
+            "day": "-0.11%",
+            "week": "-3.98%"
+        },
+        "DATA": {
+            "name": "Streamr",
+            "price": "0.054939",
+            "hour": "0.75%",
+            "day": "-3.20%",
+            "week": "-10.47%"
+        },
+        "CRPT": {
+            "name": "Crypterium",
+            "price": "0.372533",
+            "hour": "1.08%",
+            "day": "-0.91%",
+            "week": "-10.13%"
+        },
+        "EURS": {
+            "name": "STASIS EURO",
+            "price": "1.12",
+            "hour": "-0.03%",
+            "day": "0.00%",
+            "week": "-0.42%"
+        },
+        "GXC": {
+            "name": "GXChain",
+            "price": "0.547806",
+            "hour": "0.02%",
+            "day": "-1.42%",
+            "week": "-11.59%"
+        },
+        "TFUEL": {
+            "name": "Theta Fuel",
+            "price": "0.009155",
+            "hour": "-0.86%",
+            "day": "-3.43%",
+            "week": "32.77%"
+        },
+        "XNS": {
+            "name": "Insolar",
+            "price": "0.869628",
+            "hour": "0.15%",
+            "day": "0.64%",
+            "week": "0.30%"
+        },
+        "NPXS": {
+            "name": "Pundi X",
+            "price": "0.000148",
+            "hour": "0.00%",
+            "day": "-1.05%",
+            "week": "-3.30%"
+        },
+        "GT": {
+            "name": "Gatechain Token",
+            "price": "0.510537",
+            "hour": "0.12%",
+            "day": "0.33%",
+            "week": "-5.19%"
+        },
+        "CVT": {
+            "name": "CyberVein",
+            "price": "0.032264",
+            "hour": "4.17%",
+            "day": "-8.67%",
+            "week": "-12.77%"
+        },
+        "SXP": {
+            "name": "Swipe",
+            "price": "0.491762",
+            "hour": "0.84%",
+            "day": "-0.26%",
+            "week": "-5.97%"
+        },
+        "KAVA": {
+            "name": "Kava",
+            "price": "0.957265",
+            "hour": "-0.51%",
+            "day": "3.86%",
+            "week": "-12.28%"
+        },
+        "TT": {
+            "name": "Thunder Token",
+            "price": "0.005869",
+            "hour": "0.33%",
+            "day": "0.93%",
+            "week": "-5.59%"
+        },
+        "RSR": {
+            "name": "Reserve Rights",
+            "price": "0.004616",
+            "hour": "1.53%",
+            "day": "-2.15%",
+            "week": "33.27%"
+        },
+        "ORBS": {
+            "name": "Orbs",
+            "price": "0.014600",
+            "hour": "1.57%",
+            "day": "1.97%",
+            "week": "-7.42%"
+        },
+        "DGTX": {
+            "name": "Digitex Futures",
+            "price": "0.036279",
+            "hour": "-0.03%",
+            "day": "-2.39%",
+            "week": "-4.51%"
+        },
+        "DRGN": {
+            "name": "Dragonchain",
+            "price": "0.091740",
+            "hour": "-0.43%",
+            "day": "-0.39%",
+            "week": "-14.05%"
+        },
+        "GNO": {
+            "name": "Gnosis",
+            "price": "27.95",
+            "hour": "0.46%",
+            "day": "-0.48%",
+            "week": "-10.00%"
+        },
+        "TOMO": {
+            "name": "TomoChain",
+            "price": "0.433166",
+            "hour": "0.98%",
+            "day": "1.59%",
+            "week": "-12.54%"
+        },
+        "EDO": {
+            "name": "Eidoo",
+            "price": "0.528236",
+            "hour": "-0.13%",
+            "day": "-6.99%",
+            "week": "-6.96%"
+        },
+        "BEAM": {
+            "name": "Beam",
+            "price": "0.468605",
+            "hour": "0.27%",
+            "day": "-1.54%",
+            "week": "-6.92%"
+        },
+        "ELA": {
+            "name": "Elastos",
+            "price": "1.63",
+            "hour": "-0.21%",
+            "day": "0.98%",
+            "week": "-9.19%"
+        },
+        "WAN": {
+            "name": "Wanchain",
+            "price": "0.237268",
+            "hour": "-1.74%",
+            "day": "2.64%",
+            "week": "8.32%"
+        },
+        "IOTX": {
+            "name": "IoTeX",
+            "price": "0.005363",
+            "hour": "-0.24%",
+            "day": "-2.43%",
+            "week": "6.12%"
+        },
+        "HPT": {
+            "name": "Huobi Pool Token",
+            "price": "0.005702",
+            "hour": "0.19%",
+            "day": "-0.48%",
+            "week": "-7.36%"
+        },
+        "STORJ": {
+            "name": "Storj",
+            "price": "0.173671",
+            "hour": "-0.24%",
+            "day": "-4.22%",
+            "week": "7.81%"
+        },
+        "SERO": {
+            "name": "Super Zero Protocol",
+            "price": "0.103350",
+            "hour": "0.03%",
+            "day": "-1.91%",
+            "week": "-1.80%"
+        },
+        "ONE": {
+            "name": "Harmony",
+            "price": "0.004386",
+            "hour": "-0.38%",
+            "day": "-1.17%",
+            "week": "10.83%"
+        },
+        "PIVX": {
+            "name": "PIVX",
+            "price": "0.467751",
+            "hour": "0.27%",
+            "day": "-1.51%",
+            "week": "-3.97%"
+        },
+        "CTXC": {
+            "name": "Cortex",
+            "price": "0.106090",
+            "hour": "0.19%",
+            "day": "1.56%",
+            "week": "-9.52%"
+        },
+        "WTC": {
+            "name": "Waltonchain",
+            "price": "0.380295",
+            "hour": "0.04%",
+            "day": "3.15%",
+            "week": "-9.06%"
+        },
+        "OCEAN": {
+            "name": "Ocean Protocol",
+            "price": "0.078294",
+            "hour": "-2.46%",
+            "day": "-5.20%",
+            "week": "-6.23%"
+        },
+        "FSN": {
+            "name": "Fusion",
+            "price": "0.580813",
+            "hour": "0.27%",
+            "day": "14.46%",
+            "week": "47.09%"
+        },
+        "MX": {
+            "name": "MX Token",
+            "price": "0.140102",
+            "hour": "0.22%",
+            "day": "-1.78%",
+            "week": "-7.63%"
+        },
+        "POLY": {
+            "name": "Polymath",
+            "price": "0.049630",
+            "hour": "-0.30%",
+            "day": "-2.10%",
+            "week": "3.34%"
+        },
+        "BAND": {
+            "name": "Band Protocol",
+            "price": "1.24",
+            "hour": "0.20%",
+            "day": "-3.03%",
+            "week": "-14.49%"
+        },
+        "TSHP": {
+            "name": "12Ships",
+            "price": "0.005140",
+            "hour": "2.50%",
+            "day": "2.27%",
+            "week": "-7.25%"
+        },
+        "STORM": {
+            "name": "Storm",
+            "price": "0.003192",
+            "hour": "0.14%",
+            "day": "0.13%",
+            "week": "-0.57%"
+        },
+        "FUN": {
+            "name": "FunFair",
+            "price": "0.003771",
+            "hour": "0.19%",
+            "day": "0.18%",
+            "week": "-6.53%"
+        },
+        "ENG": {
+            "name": "Enigma",
+            "price": "0.324230",
+            "hour": "0.82%",
+            "day": "4.22%",
+            "week": "1.20%"
+        },
+        "PAI": {
+            "name": "Project Pai",
+            "price": "0.016399",
+            "hour": "-0.31%",
+            "day": "-0.33%",
+            "week": "-6.33%"
+        },
+        "WIN": {
+            "name": "WINk",
+            "price": "0.000076",
+            "hour": "-0.12%",
+            "day": "-1.99%",
+            "week": "-8.72%"
+        },
+        "IQ": {
+            "name": "Everipedia",
+            "price": "0.003036",
+            "hour": "16.89%",
+            "day": "67.40%",
+            "week": "81.18%"
+        },
+        "FX": {
+            "name": "Function X",
+            "price": "0.104955",
+            "hour": "0.57%",
+            "day": "-2.77%",
+            "week": "10.74%"
+        },
+        "WXT": {
+            "name": "Wirex Token",
+            "price": "0.009877",
+            "hour": "-0.24%",
+            "day": "0.75%",
+            "week": "0.16%"
+        },
+        "FET": {
+            "name": "Fetch.ai",
+            "price": "0.030409",
+            "hour": "-0.97%",
+            "day": "-5.72%",
+            "week": "2.06%"
+        },
+        "XDCE": {
+            "name": "XinFin Network",
+            "price": "0.003835",
+            "hour": "-1.67%",
+            "day": "-1.49%",
+            "week": "-2.38%"
+        },
+        "TRUE": {
+            "name": "TrueChain",
+            "price": "0.277474",
+            "hour": "-0.06%",
+            "day": "-0.61%",
+            "week": "-7.35%"
+        },
+        "AAC": {
+            "name": "Acute Angle Cloud",
+            "price": "0.086923",
+            "hour": "-0.29%",
+            "day": "-2.28%",
+            "week": "4.24%"
+        },
+        "SYS": {
+            "name": "Syscoin",
+            "price": "0.036880",
+            "hour": "-0.22%",
+            "day": "5.62%",
+            "week": "15.05%"
+        },
+        "DAD": {
+            "name": "DAD",
+            "price": "0.325581",
+            "hour": "0.56%",
+            "day": "0.10%",
+            "week": "8.50%"
+        },
+        "LOOM": {
+            "name": "Loom Network",
+            "price": "0.022229",
+            "hour": "-1.72%",
+            "day": "8.01%",
+            "week": "1.57%"
+        },
+        "CVC": {
+            "name": "Civic",
+            "price": "0.032157",
+            "hour": "-0.08%",
+            "day": "-4.66%",
+            "week": "5.43%"
+        },
+        "MTL": {
+            "name": "Metal",
+            "price": "0.327830",
+            "hour": "-0.59%",
+            "day": "-0.38%",
+            "week": "-5.13%"
+        },
+        "GRIN": {
+            "name": "Grin",
+            "price": "0.468160",
+            "hour": "-0.68%",
+            "day": "-1.95%",
+            "week": "-12.49%"
+        },
+        "AOA": {
+            "name": "Aurora",
+            "price": "0.003169",
+            "hour": "3.24%",
+            "day": "9.84%",
+            "week": "6.20%"
+        },
+        "PPT": {
+            "name": "Populous",
+            "price": "0.378543",
+            "hour": "-0.03%",
+            "day": "4.11%",
+            "week": "-12.11%"
+        },
+        "IPX": {
+            "name": "Tachyon Protocol",
+            "price": "0.075108",
+            "hour": "-0.40%",
+            "day": "-1.40%",
+            "week": "-18.24%"
+        },
+        "NEX": {
+            "name": "Nash Exchange",
+            "price": "0.853513",
+            "hour": "0.16%",
+            "day": "-2.55%",
+            "week": "-6.94%"
+        },
+        "ADK": {
+            "name": "Aidos Kuneen",
+            "price": "0.799974",
+            "hour": "-0.29%",
+            "day": "-0.66%",
+            "week": "-7.22%"
+        },
+        "NAS": {
+            "name": "Nebulas",
+            "price": "0.375716",
+            "hour": "-0.32%",
+            "day": "1.24%",
+            "week": "-4.71%"
+        },
+        "TRAC": {
+            "name": "OriginTrail",
+            "price": "0.070660",
+            "hour": "0.74%",
+            "day": "1.23%",
+            "week": "2.00%"
+        },
+        "BOA": {
+            "name": "BOSAGORA",
+            "price": "0.068554",
+            "hour": "-0.41%",
+            "day": "-3.47%",
+            "week": "5.35%"
+        },
+        "OGN": {
+            "name": "Origin Protocol",
+            "price": "0.267435",
+            "hour": "0.73%",
+            "day": "13.29%",
+            "week": "-0.90%"
+        },
+        "IGNIS": {
+            "name": "Ignis",
+            "price": "0.024412",
+            "hour": "-2.26%",
+            "day": "-1.44%",
+            "week": "-7.03%"
+        },
+        "GRS": {
+            "name": "Groestlcoin",
+            "price": "0.244071",
+            "hour": "0.94%",
+            "day": "4.13%",
+            "week": "18.04%"
+        },
+        "GAS": {
+            "name": "Gas",
+            "price": "1.81",
+            "hour": "3.10%",
+            "day": "3.47%",
+            "week": "2.48%"
+        },
+        "KAN": {
+            "name": "BitKan",
+            "price": "0.002857",
+            "hour": "-0.26%",
+            "day": "-1.96%",
+            "week": "1.96%"
+        },
+        "FOR": {
+            "name": "The Force Protocol",
+            "price": "0.055579",
+            "hour": "1.77%",
+            "day": "22.63%",
+            "week": "25.17%"
+        },
+        "BORA": {
+            "name": "BORA",
+            "price": "0.025413",
+            "hour": "0.44%",
+            "day": "-0.05%",
+            "week": "-1.13%"
+        },
+        "AGI": {
+            "name": "SingularityNET",
+            "price": "0.020785",
+            "hour": "-0.33%",
+            "day": "2.02%",
+            "week": "12.08%"
+        },
+        "NIM": {
+            "name": "Nimiq",
+            "price": "0.002786",
+            "hour": "1.15%",
+            "day": "6.55%",
+            "week": "7.59%"
+        },
+        "VTC": {
+            "name": "Vertcoin",
+            "price": "0.302874",
+            "hour": "-5.69%",
+            "day": "6.33%",
+            "week": "-2.73%"
+        },
+        "KSM": {
+            "name": "Kusama",
+            "price": "5.53",
+            "hour": "-0.93%",
+            "day": "-0.39%",
+            "week": "-5.42%"
+        },
+        "IRIS": {
+            "name": "IRISnet",
+            "price": "0.022237",
+            "hour": "0.08%",
+            "day": "-1.15%",
+            "week": "11.29%"
+        },
+        "FCT": {
+            "name": "Factom",
+            "price": "1.73",
+            "hour": "-0.29%",
+            "day": "-0.26%",
+            "week": "-0.08%"
+        },
+        "TNT": {
+            "name": "Tierion",
+            "price": "0.036780",
+            "hour": "0.25%",
+            "day": "-2.17%",
+            "week": "-8.10%"
+        }
+    }
+}
